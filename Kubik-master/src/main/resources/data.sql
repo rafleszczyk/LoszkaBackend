@@ -1,0 +1,5 @@
+INSERT INTO News(id, author, tekst, tags, category) VALUES (1, "Ja", "Donec id elitmi porta gravidt eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.", "Loszka", "Loszki");
+INSERT INTO News(id, author, tekst, tags, category) VALUES (2, "NieJa", "Donec id elit non mi porta gravida at eget metus. Fusce dapibus,n mi porta gravida at eget metus.  mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etio dui.", "Loszka", "Loszki");
+INSERT INTO News(id, author, tekst, tags, category) VALUES (3, "NieNieJa", "n mi porta gravida at eget metus. ", "Tagi", "Loszki");
+INSERT INTO News(id, author, tekst, tags, category) VALUES (4, "NieNieNieNieJa", "mi porta gravid", "Tags", "Loszki");
+INSERT INTO News(id, author, tekst, tags, category) VALUES (5, "Loszka", "porta gravidt eget m", "Tagujemy", "Loszki");
