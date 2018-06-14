@@ -2,8 +2,10 @@ package io.modeling.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "News")
@@ -11,14 +13,23 @@ import javax.persistence.Table;
 public class Model {
 
 	@Id
+	@GeneratedValue
 	private int id;
+	
 	@Column(name = "author")
+	@NotNull
 	private String author;
+	
 	@Column(name = "tekst")
+	@NotNull
 	private String tekst;
+	
 	@Column(name = "tags")
+	@NotNull
 	private String tags;
+	
 	@Column(name = "category")
+	@NotNull
 	private String category;
 	
 	public Model() {

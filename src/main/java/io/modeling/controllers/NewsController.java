@@ -20,11 +20,6 @@ public class NewsController {
 
 	@Autowired
 	private NewsService newsService;
-
-	@RequestMapping("/")
-	public String test() {
-		return "DUPAAAA!";
-	}
 	
 	@RequestMapping("/news")
 	public List<Model> getNews() {
